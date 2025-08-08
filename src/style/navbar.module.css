@@ -1,0 +1,30 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  border: 1px solid var(--dull-blue);
+  background-color: var(--dull-blue);
+} 
+
+.navbarWrapper div:nth-child(1) {
+    font-size: x-large;
+    letter-spacing: 0.8rem;
+
+}
+
+.navbarWrapper div:nth-child(2) {
+  flex-basis: 60%;
+}
+
+.navbarWrapper div:nth-child(2) input {
+  width: 100%;
+  padding: 10px;
+  background-color: var( --light-prime-gray);
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+
