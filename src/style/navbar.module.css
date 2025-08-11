@@ -26,5 +26,25 @@
   color: #fff;
 }
 
+.searchBar {
+  position: relative;
+}
 
+
+#resultList {
+  position : absolute;
+  display: none;
+  background-color: whitesmoke;
+  color: #111;
+  font-size: medium;
+  width: 100%;
+}
+
+#resultList > .autocompleteResult {
+  font-size: medium;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #123;
+}
 
