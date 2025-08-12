@@ -37,7 +37,11 @@
   background-color: whitesmoke;
   color: #111;
   font-size: medium;
-  width: 100%;
+  border-radius: 10px;
+  width:90% ;
+  max-height: 300px; 
+  overflow-y:scroll ;
+  border: 1px solid var(--light-prime-gray);
 }
 
 #resultList > .autocompleteResult {
