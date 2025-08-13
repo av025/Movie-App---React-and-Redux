@@ -4,7 +4,7 @@ import { useMoviesList } from "../hooks/useMovieList";
 import styles from "../style/home.module.css";
 
 function Home() {
-  const { movieList } = useMoviesList("superman", "titanic", "batman");
+  const { movieList } = useMoviesList( "star wars", "harry potter", "journey to west");
   const [isListShown, setIsListShow] = useState(true);
   return (
     <div className={styles.movieCardWrapper}>

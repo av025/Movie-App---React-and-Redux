@@ -13,7 +13,7 @@ function MovieDetails() {
   }
   useEffect(() => {
     getMovieByID();
-  }, []);
+  }, [id]);
 
   return (
     <>
