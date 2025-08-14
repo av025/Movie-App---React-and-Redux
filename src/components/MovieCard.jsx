@@ -1,8 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import styles from "../style/movie-card.module.css";
 
-function MovieCard({ Title, Year, imdbID, Type, Poster }) {
+function MovieCard({ Title, Year, imdbID, Type, Poster }) { 
+ 
+const  navigate = useNavigate(); 
+
+ function handleNavigation() {
+     navigate(`/movie/${imdbID}`);
+ }
+
   return (
-    <div className={styles.movieCardWrapper}>
+    <div onClick={handleNavigation} className={styles.movieCardWrapper}>
       <div className={styles.cardImage}>
         <img src={Poster} alt={Title} />
       </div>
