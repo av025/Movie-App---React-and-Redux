@@ -22,7 +22,7 @@
     width: inherit;
     margin-right: 1rem;
     display: inline-block;
-    border: 1px solid var(--dull-blue);
+    border: 1px solid whitesmoke;
     background-color: var(--dull-blue);
     padding: 10px 20px;
     border-radius: 20px;

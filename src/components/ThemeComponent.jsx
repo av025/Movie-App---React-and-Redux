@@ -7,11 +7,18 @@ import ThemeContext from "../context/ThemeContext";
 function ThemeComponent() {
   const { theme, setTheme } = useContext(ThemeContext);
 
-  function toggleTheme() {
-     setTheme(theme === "dark" ? "light" : "dark");
+  function updateTheme() {
+    if(theme === "dark") {
+       setTheme("light"); 
+       localStorage.setItem("app-theme", "light"); 
+    } else {
+      setTheme("dark"); 
+      localStorage.setItem("app-theme", "dark")
+    }
   }
+
   return (
-    <div className={style.themeWrapper} onClick={toggleTheme}>
+    <div className={style.themeWrapper} onClick={updateTheme}>
       <FontAwesomeIcon
         icon={theme === "dark" ? faSun : faMoon}
         className={style.themeIcon}
