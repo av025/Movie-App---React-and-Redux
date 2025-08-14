@@ -1,6 +1,10 @@
 .themeWrapper {
-    background-color: var(--dark-blue-theme);
+    background-color: #191e26;
     padding: 10px;
     border-radius: 100%;
     cursor: pointer;
+} 
+
+.themeIcon {
+    font-size: large;
 }

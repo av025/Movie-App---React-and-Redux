@@ -1,27 +1,37 @@
 html {
-    box-sizing: border-box;    
+  box-sizing: border-box;
 }
 
-
-*,*::after,*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 :root {
-    --prime-blue : #00a0d6;
-    --dull-blue : #364f65;
-    --dark-blue-theme: #191e26; 
-    --normal-theme: #fff; 
-    --normal-theme-light-prime-gray : #e6ecf5;
-    --dark-theme-light-prime-gray: #32373e;
-    --dark-theme-card-background: whitesmoke;
-    --normal-theme-card-background:#364f65;
-    --dark-theme-text:#111;
-    --normal-theme-text:#fff;
+  --prime-blue: #00a0d6;
+  --dull-blue: #364f65;
+  --dark-blue: #191e26;
+  --card-background:whitesmoke;
+  --font-color : black;
+  --font-color-inverted:white;
+  --light-prime-gray: #32373e;
 }
 
-body {
-    background-color: var(--normal-theme);
+[data-theme="light"] {
+ --prime-blue: #00a0d6;
+  --dull-blue: #364f65;
+  --dark-blue: #ffff;
+  --card-background: #364f65;
+  --font-color : white;
+  --font-color-inverted:black;
+  --light-prime-gray: #e6ecf5;
 }
+
+#app-wrapper {
+  background-color: var(--dark-blue);
+}
+
+

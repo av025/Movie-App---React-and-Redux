@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: var(--font-color-inverted);
 
 }
 
@@ -25,5 +26,5 @@
     background-color: var(--dull-blue);
     padding: 10px 20px;
     border-radius: 20px;
-    color: var(--normal-theme-text);
+    color: #fff;
 }
