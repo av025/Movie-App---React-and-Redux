@@ -21,7 +21,7 @@
 .navbarWrapper div:nth-child(2) input {
   width: 100%;
   padding: 10px;
-  background-color: var( --light-prime-gray);
+  background-color: var(--normal-theme-light-prime-gray);
   border-radius: 5px;
   color: #fff;
 }

@@ -5,7 +5,9 @@ import styles from "../style/home.module.css";
 
 function Home() {
   const { movieList } = useMoviesList( "star wars", "harry potter", "journey to west");
-  const [isListShown, setIsListShow] = useState(true);
+  const [isListShown, setIsListShow] = useState(true); 
+
+  
   return (
     <div className={styles.movieCardWrapper}>
       {isListShown &&

@@ -3,6 +3,9 @@ import styles from "../style/navbar.module.css";
 import { useMoviesList } from "../hooks/useMovieList";
 import { useDebounce } from "../hooks/useDebounce";
 import { Link, useNavigate } from "react-router-dom";
+import ThemeComponent from "./ThemeComponent";
+
+
 function NavbarComponent() {
   const [searchTerm, setSearchTerm] = useState("");
   const resultListRef = useRef(null);
@@ -54,7 +57,7 @@ function NavbarComponent() {
             })}
         </div>
       </div>
-      <div>Theme</div>
+      <ThemeComponent />
     </div>
   );
 }

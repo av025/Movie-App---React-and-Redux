@@ -8,7 +8,7 @@
 
 
 .movieDetail { 
-    color : white;
+    color : var(--dark-theme-text);
     flex-basis: 50%;
     font-size: x-large;
     display: flex;
@@ -25,4 +25,5 @@
     background-color: var(--dull-blue);
     padding: 10px 20px;
     border-radius: 20px;
+    color: var(--normal-theme-text);
 }

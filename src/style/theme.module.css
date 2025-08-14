@@ -1,0 +1,6 @@
+.themeWrapper {
+    background-color: var(--dark-blue-theme);
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}

@@ -12,10 +12,16 @@ html {
 :root {
     --prime-blue : #00a0d6;
     --dull-blue : #364f65;
-    --dark-blue: #191e26; 
-    --light-prime-gray : #32373e;
+    --dark-blue-theme: #191e26; 
+    --normal-theme: #fff; 
+    --normal-theme-light-prime-gray : #e6ecf5;
+    --dark-theme-light-prime-gray: #32373e;
+    --dark-theme-card-background: whitesmoke;
+    --normal-theme-card-background:#364f65;
+    --dark-theme-text:#111;
+    --normal-theme-text:#fff;
 }
 
 body {
-    background-color: var(--dark-blue);
+    background-color: var(--normal-theme);
 }
